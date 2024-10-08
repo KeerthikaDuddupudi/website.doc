@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RESIN ART BUSINESS</title>
+    <link rel="stylesheet" href="web.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <img src="logo.jpg" alt="">
+            <h1>Resin Art Business</h1>
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#models">Resin ArtShop</li>
+                    <li><a href="#orders">Order</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <section id="about">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>Welcome to our resin art business! We specialize in creating unique and beautiful resin artworks.</p>
+        </div>
+    </section>
+    <section id="models">
+        <div class="main1">
+            <h2>Our Resin Art Shop</h2>
+            <div class="main">
+                <div class="model-1">
+                    <img src="image1.jpg" alt="Key Chains" width="300" height="300">
+                </div>
+                <div class="model-1">
+                    <img src="age.jpeg" alt="Invitation" width="300" height="300">
+                </div>
+                <div class="model-1">
+                    <img src="image2.jpg" alt="Jewellary" width="300" height="300">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="orders">
+        <div class="container">
+            <h2>Make An Order</h2>
+            <form action="submit.php" method="POST">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <input type="PhoneNumber" name="PhoneNumber" placeholder="Phone number" required>
+                <textarea name="address" placeholder="Your Address" required></textarea>
+                <button type="submit">Confirm Order</button>
+            </form>
+
+        </div>
+    </section>
+    </section>
+    
+    <section id="gallery">
+        <div class="main1">
+            <h2>Gallery</h2>
+            <div class="main">
+                <div class="gallery-item">
+                    <img src="image3.jpg" alt="Resin Artwork 1" width="300" height="300">
+                </div>
+                <div class="gallery-item">
+                    <img src="image4.jpeg" alt="Resin Artwork 2" width="300" height="300">
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <form action="submit.php" method="POST">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+    
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Resin Art Business. All rights reserved.</p>
+        </div>
+    </footer>
+    
+    
+</body>
+</html>
